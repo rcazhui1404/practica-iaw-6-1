@@ -7,8 +7,8 @@ theme:
   language: 'es'
   palette:
     - scheme: default
-      primary: 'indigo'
-      accent: 'pink'
+      primary: 'purple'
+      accent: 'yellow'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
