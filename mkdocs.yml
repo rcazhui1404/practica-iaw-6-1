@@ -1,0 +1,51 @@
+site_name: 'Documentación de las prácticas'
+site_description: 'Práctica: MkDocs'
+site_author: 'Romel Oswaldo Caz Huisha'
+
+theme:
+  name: 'material'
+  language: 'es'
+  palette:
+    - scheme: default
+      primary: 'indigo'
+      accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'images/logo.png'
+  favicon: 'images/favicon.ico'
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Inicio: index.md
+  - Personalización:
+      - "1.3.5 Personalización del theme Material": personalizacion.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rcazhui1404/practica-iaw-6-1
+  version:
+    provider: mike
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - tables
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+repo_url: https://github.com/rcazhui1404/practica-iaw-6-1
+repo_name: 'GitHub'
+
+copyright: 'Copyright © 2025 Romel'
