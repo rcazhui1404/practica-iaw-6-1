@@ -16,16 +16,28 @@ theme:
   favicon: 'images/favicon.ico'
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.footer 
 
 nav:
   - Inicio: index.md
-  - Personalización:
-      - "1.3.5 Personalización del theme Material": personalizacion.md
-
+  - Prácticas:
+      - Práctica 3.1: 3-1.md
+      - Práctica 3.2: 3-2.md
+      - Práctica 4.1: 4-1.md
+      - Práctica 4.3: 4-3.md
+      - Práctica 4.5: 4-5.md
+      - Práctica 5.1: 5-1.md
+      - Práctica 5.2: 5-2.md
+      - Práctica 5.4: 5-4.md
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rcazhui1404/practica-iaw-6-1
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/romel-oswaldo-caz-huisha-038b73304/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/romel_147/
   version:
     provider: mike
 
